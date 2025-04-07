@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="An interactive FizzBuzz game website hosted on GitHub Pages.">
+</head>
+<body>
+
+    <header>
+        <h1>FizzBuzz Game</h1>
+        <p>Enter a number and see the FizzBuzz sequence!</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <label for="limit">Enter upper limit:</label>
+            <input type="number" id="limit" name="limit" min="1" value="20">
+            <button id="generateBtn">Generate</button>
+        </div>
+
+        <div id="output" class="output-container" aria-live="polite">
+            <p>Results will appear here.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
